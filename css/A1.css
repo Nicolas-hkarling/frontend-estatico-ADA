@@ -14,6 +14,12 @@ li{
     font-size: large;
     color: #fca311;
     padding: 5px;
+    
+}
+.img-list li {
+    flex-direction: row;
+   
+
 }
 img{
      border-style: solid;
@@ -31,7 +37,8 @@ body{
     background-color:#14213d ;
 }
 ul{ 
-    list-style-type: none;}
+    list-style-type: none;
+display: flex;}
 div.menu{
     background-color: #e5e5e5;
     width: 200px;
@@ -51,6 +58,90 @@ p.menu{
     color: #fca311;
     text-decoration: none;
  }
+ .sesion-form{
+    background-color: #e5e5e5;
+    border-style: solid;
+    border-width: 1%;
+    border-color: #ffffff;
+    margin: 5%;
+ }
+ .sesion-form h2{
+    color: #fca311;
+
+ }
+ .result, .vote{
+    padding-left: 4%;
+    width: 50%;
+    min-height: 200px;
+ }
+ 
+ h3{
+    color: #ffffff;
+    background-color: #14213d;
+    border-style:solid;
+    border-width:1% ;
+    
+    border-color: #fca311;
+ }
+ .result ol {
+    background-color: #14213d;
+    border-style:solid;
+    border-left-width:1% ;
+    border-right-width:1% ;
+    height:85%;
+    
+    border-color: #fca311;
+    padding-left: 5%;
+ }
+
+ .form{
+    display: flex;
+ }
+ .vote{
+    background-color: #14213d;
+    border-style: solid;
+    border-width: 1%;
+    border-color: #ffffff;
+    margin-top: -2.9%;
+    
+ }
+ .form-box{
+    color: #fca311;
+    padding-top:1% ;
+ } 
+ .vote input[type= "text"]{
+    font-size: 12px;
+  margin-left: 10px;
+  width: 90%;
+  height: 25%;
+  border-radius: calc(height/2);
+ }
+
+ .vote input[type= "text"]::placeholder{
+    color: #fca311;
+ 
+ }
+ .vote input[type= "radio"]{
+    background-color: #fca311;
+    cursor: default;
+    appearance: checkbox;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+    
+ 
+ }
+ .button-form {
+    width: calc(100% - 60px);
+    margin: 10px 0 10px 0;
+    height: 36px;
+    background-color: #e5e5e5;
+    color: #fca311;
+    text-align: center;
+    border-radius: 18px;
+  }
+
 
     
     
